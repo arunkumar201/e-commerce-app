@@ -1,0 +1,15 @@
+{
+	"extends": "@arunp/typescript-config/base.json",
+	"compilerOptions": {
+		"noEmit": true,
+		"baseUrl": ".",
+		"paths": { "@/*": ["src/*"] },
+		"jsx": "preserve",
+		"typeRoots": ["./src/types", "./node_modules/@types"],
+		"sourceMap": true,
+		"outDir": "./dist",
+		"module": "ES2015",
+		"moduleResolution": "bundler",
+		"forceConsistentCasingInFileNames": true
+	}
+}
