@@ -2,8 +2,6 @@
   "name": "@arunp/server",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "exports": "./dist/index.mjs",
   "scripts": {
     "dev": "npx tsx watch --include \"src/**/*.ts*\" src/index.ts",
     "lint": "tsc --noEmit && eslint \"src/**/*.ts*\" --max-warnings 0",
